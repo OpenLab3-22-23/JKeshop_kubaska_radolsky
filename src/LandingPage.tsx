@@ -1,8 +1,10 @@
 import openlab from "./assets/openlab.svg";
 import { useAuth } from "./auth/Auth";
 
+ /**
 export default function LandingPage(): JSX.Element {
-
+}
+    /** 
     const {signOut} = useAuth()
 
     function handleLogOut(): void {
@@ -15,4 +17,11 @@ export default function LandingPage(): JSX.Element {
             <button onClick={handleLogOut}>Odhlásiť sa</button>
         </div>
     )
-}
+}  **/
+
+<div className="button-container">
+        <div className="button-row">
+          
+            <button className="btn-questions">step in to Multiverse</button>
+        </div>
+</div>
