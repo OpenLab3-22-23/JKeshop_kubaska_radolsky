@@ -1,5 +1,5 @@
-import openlab from "./assets/openlab.svg";
-import { useAuth } from "./auth/Auth";
+/**import openlab from "./assets/openlab.svg";
+import { useAuth } from "./auth/Auth";**/
 
  /**
 export default function LandingPage(): JSX.Element {
@@ -19,9 +19,23 @@ export default function LandingPage(): JSX.Element {
     )
 }  **/
 
-<div className="button-container">
+/**<div className="button-container">
         <div className="button-row">
           
             <button className="btn-questions">step in to Multiverse</button>
         </div>
-</div>
+</div>**/
+
+
+import React from "react";
+
+const LandingPage = () => {
+  return (
+    <div>
+      <h1>Step in to the Multiverse</h1>
+      
+    </div>
+  );
+};
+
+export default LandingPage;

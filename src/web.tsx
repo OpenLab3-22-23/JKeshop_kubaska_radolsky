@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import LandingPage from "./LandingPage";
+
 interface Product {
 
 id: number;
