@@ -13,7 +13,7 @@ export default function LandingPage(): JSX.Element {
     return (
         <div>
       <header>
-        <h1>Eshop</h1>
+        <h1>J&K</h1>
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
@@ -26,12 +26,12 @@ export default function LandingPage(): JSX.Element {
 
       <main>
         <h2>Step in to the Multiverse</h2>
-        <p>"suck my cock wow is the best game" -Kubaška2023</p>
+        <p></p>
         <button>Step in</button>
       </main>
 
       <footer>
-        <p>Copyright &copy; Eshop 2023</p>
+        <p></p>
       </footer>
     </div>
     )
