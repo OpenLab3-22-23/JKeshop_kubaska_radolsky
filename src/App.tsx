@@ -3,6 +3,8 @@ import "./App.css";
 import { useAuth } from "./auth/Auth";
 import LandingPage from "./LandingPage";
 import NavBar from "./NavBar";
+import Product from "./Products";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
 function App() {
@@ -16,5 +18,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
