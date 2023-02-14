@@ -17,7 +17,9 @@ export default function LandingPage(): JSX.Element {
       <header>
         <h1>J&K</h1>
         <NavBar />
+        <button onClick={handleLogOut}>sing out</button>
       </header>
+ 
 
       <main>
       <img src="src/img/shrooms.jpg" alt="Shrooms"/>
@@ -32,4 +34,6 @@ export default function LandingPage(): JSX.Element {
     </div>
     )
 }
+
+
 
