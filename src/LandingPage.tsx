@@ -25,7 +25,9 @@ export default function LandingPage(): JSX.Element {
         <h1>J&K</h1>
 >>>>>>> 10f27c391fd5f488d68b4512dadcd35f7bafc562
         <NavBar />
+        <button onClick={handleLogOut}>sing out</button>
       </header>
+ 
 
       <main>
 <<<<<<< HEAD
@@ -48,4 +50,6 @@ export default function LandingPage(): JSX.Element {
     </div>
     )
 }
+
+
 
