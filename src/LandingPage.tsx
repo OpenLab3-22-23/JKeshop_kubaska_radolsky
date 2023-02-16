@@ -15,8 +15,9 @@ export default function LandingPage(): JSX.Element {
     return (
         <div>
       <header>
-      <img style={{ width: 100, height: 100 }} src="src/img/jak.png" alt="j&k"/>
+        <img style={{ width: 100, height: 100 }} src="src/img/jak.png" alt="j&k"/>
         <NavBar />
+        <button onClick={handleLogOut}>sing out</button>
       </header>
 
       <main>
