@@ -3,6 +3,7 @@ import { useAuth } from "./auth/Auth";
 import NavBar from "./NavBar";
 import image from "img/shrooms.jpg";
 import Product from './Products';
+import { Link } from "react-router-dom";
 
 export default function LandingPage(): JSX.Element {
 
@@ -24,7 +25,9 @@ export default function LandingPage(): JSX.Element {
       <img style={{ width: 450, height: 600 }} src="src/img/city.jpg" alt="Shrooms"/>
         <h2>Step in to the Multiverse</h2>
         <p></p>
-        <button>Step in</button>
+        <Link to="/Home"> {}
+          <button>Step in</button>
+        </Link>
       </main>
 
       <footer>
