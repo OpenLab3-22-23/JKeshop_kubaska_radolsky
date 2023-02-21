@@ -1,10 +1,20 @@
 import NavBar from "./NavBar";
-import React from "react";
+import React, { useEffect } from "react";
 import LandingPage from "./LandingPage";
+import { supabase } from "./supabase/supabaseClient";
 
 
 const Product = ( ) => {
-    return (
+  useEffect (()=>{
+    async function fetchproducts() {
+      const res = await supabase
+        .storage
+        .from('productimages').getPublicUrl("hoodie.png")
+        console.log(res)
+    }
+    fetchproducts()
+  },[])  
+  return (
       <div>
         
       <header>
@@ -22,5 +32,6 @@ const Product = ( ) => {
       </div>
     );
   };
+
   
 export default Product;
