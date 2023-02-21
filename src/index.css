@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap');
 
+
 body{
     background-color: #3f3f3f; 
     
@@ -24,7 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #2a012e;
+    background-color: #360370fa;
     color: #fff;
 }
   
@@ -81,3 +82,36 @@ img {
   
 
 }
+
+.Stepin {
+background-color: #360370fa;
+font-size: 30px;
+font-family: fantasy;
+}
+.Stepin:hover {
+    background-color: #53158d;
+  }
+
+button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cc2e23;
+  }
+  .Stepinto{
+    font-size: 40px;
+    font-family: fantasy;
+
+  }
+
+  .New{
+    font-family: fantasy;
+    font-size: 45px;
+
+  }
