@@ -18,15 +18,16 @@ export default function LandingPage(): JSX.Element {
       <header>
         <img style={{ width: 100, height: 100 }} src="src/img/jak.png" alt="j&k"/>
         <NavBar />
-        <button onClick={handleLogOut}>sing out</button>
+        <button onClick={handleLogOut}>Sign out</button>
       </header>
 
       <main>
       <img style={{ width: 450, height: 600 }} src="src/img/city.jpg" alt="Shrooms"/>
-        <h2>Step in to the Multiverse</h2>
+        <h2 className="Stepinto" >Step in to the Multiverse</h2>
         <p></p>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Naziv-fontu"></link>
         <Link to="/Home"> {}
-          <button>Step in</button>
+          <button className="Stepin" >Step in</button>
         </Link>
       </main>
 
