@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: #3f3f3f; 
+    background-color: #360370fa; 
     
 
 }
@@ -131,3 +131,15 @@ button {
 
   }
 
+.mt-5{
+   color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+     font-size: 28px; 
+     font-weight: 400; 
+     line-height: 32px; 
+     margin: 0 0 24px; 
+      
+}
+.text-emerald-300{
+  color: #cc2e23;
+}
