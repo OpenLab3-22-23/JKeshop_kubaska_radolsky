@@ -7,9 +7,12 @@ const NavBar = () => {
   
   return (
     <header>
+      <Link to="/LandingPage">
+         <img style={{ width: 100, height: 100 }} src="src/img/jak.png" alt="j&k" className="jak"/>
+      </Link>
       <nav>
         <ul>
-          
+           
           <li><Link to="/home">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/products">Products</Link></li>

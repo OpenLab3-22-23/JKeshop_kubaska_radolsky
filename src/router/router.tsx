@@ -6,6 +6,7 @@ import SignUp from "../auth/SignUp";
 import Contact from "../Contact";
 import Home from "../Home";
 import Product from "../Products";
+import LandingPage from "../LandingPage";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home />,
+  },
+  {
+    path: "/LandingPage",
+    element: <LandingPage />,
   },
   
 ]);

@@ -8,7 +8,7 @@ function About() {
     return (
         <div>
         <header>
-        <img style={{ width: 100, height: 100 }} src="src/img/jak.png" alt="j&k"/>
+        
           <NavBar />
         </header>
   
