@@ -48,18 +48,18 @@ header nav a {
 }
   
 main {
-    display: flex;
+   /* display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 50px;*/
     background-color: #fff;
-    text-align: center;
+    /*text-align: center;*/
 }
   
-main h2 {
+/*main h2 {
     margin-bottom: 20px;
 }
-  
+  */
 main button {
     background-color: #333;
     color: #fff;
@@ -78,10 +78,10 @@ footer {
   
 
 
-.image-grid {
+/*.image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Zmeniť na počet stĺpcov, ktoré chceš */
-    grid-gap: 50px; /* Medzera medzi obrázkami */
+    grid-template-columns: repeat(3, 1fr); /* Zmeniť na počet stĺpcov, ktoré chceš 
+    grid-gap: 50px;  Medzera medzi obrázkami 
     align-items: normal;
   }
   
@@ -94,8 +94,22 @@ footer {
     width: 300px;
     height: 350px;
  
- }
+ }*/
 
+.big-flexbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.small-flexbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 20px;
+}
 
 
 .Stepin {
@@ -144,12 +158,12 @@ button {
   color: #cc2e23;
 }
 
-.w-screen {
+/*.w-screen {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+*/
 
 form {
   display: flex;
@@ -162,7 +176,7 @@ form {
 
 input[type="email"],
 input[type="password"] {
-  width: 100%;
+  width: 30%;
   margin: 10px 0;
   padding: 10px;
   border: 1px solid #ccc;
@@ -170,11 +184,11 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-  width: 100%;
+  width: 30%;
   margin: 10px 0;
   padding: 10px;
   border-radius: 5px;
-  background-color: rgba(0, 153, 255, 0.5);
+  background-color: blue;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
@@ -185,7 +199,6 @@ p {
   font-size: 14px;
 }
 
-/* Style the link */
 a {
   color: #00cc99;
   text-decoration: none;

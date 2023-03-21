@@ -55,7 +55,7 @@ export default function LogIn() {
           value="Log In"
           className="w-64 rounded-full bg-sky-500/50 px-2 py-1 my-4"
           style={{ 
-            backgroundColor: "skyblue",
+            backgroundColor: "blue",
             border: "none",
             color: "white",
             fontWeight: "bold",
