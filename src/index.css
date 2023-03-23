@@ -48,12 +48,12 @@ header nav a {
 }
   
 main {
-   /* display: flex;
+   display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;*/
+    padding: 50px;
     background-color: #fff;
-    /*text-align: center;*/
+    text-align: center;
 }
   
 /*main h2 {
@@ -96,7 +96,7 @@ footer {
  
  }*/
 
-.big-flexbox {
+/*.big-flexbox {
   display: flex;
   justify-content: center;
   margin-top: 80px;
@@ -110,7 +110,7 @@ footer {
   margin-right: 20px;
   gap: 20px;
 }
-
+*/
 
 .Stepin {
 background-color: #360370fa;
@@ -203,4 +203,33 @@ a {
   color: #00cc99;
   text-decoration: none;
   font-weight: bold;
+}
+.product-box {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: calc(25% - 20px);
+  float: left;
+}
+
+.product-box:nth-child(4n+4) {
+  margin-right: 0;
+  clear: both;
+}
+
+.product-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-box p {
+  font-size: 1.2rem;
+}
+
+.product-box img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
