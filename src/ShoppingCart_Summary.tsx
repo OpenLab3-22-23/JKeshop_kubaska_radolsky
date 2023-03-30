@@ -1,3 +1,4 @@
+import { FaShoppingCart } from 'react-icons/fa';
 import React, { useState, useEffect } from 'react';
 
 type Product = {
@@ -39,17 +40,21 @@ const ShoppingCart = () => {
   };
 
   return (
+    <div className='wrapper'>
     <div>
-      <h2>Shopping Cart</h2>
+      <h2 className='ShoppingCart'>
+        <FaShoppingCart /> Shopping Cart
+      </h2>
       {products.map((product) => (
         <div key={product.id}>
           <h3>{product.name}</h3>
           <p>${product.price}</p>
-          <button onClick={() => removeFromCart(product.id)}>Remove from Cart</button>
+        
         </div>
       ))}
       <h3>Total Price: ${totalPrice}</h3>
-      <button onClick={() => addToCart({ id: 1, name: 'Product 1', price: 10 })}>Add to Cart</button>
+      
+    </div>
     </div>
   );
 };
