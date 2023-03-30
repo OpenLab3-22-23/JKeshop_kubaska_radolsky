@@ -83,7 +83,7 @@ const Products = () => {
       const { data, error } = await supabase
         .from('products')
         .select('id, description, price, img_url')
-        .range(1, 4)
+        .range(0, 4)
 
       if (error) {
         console.error(error)
