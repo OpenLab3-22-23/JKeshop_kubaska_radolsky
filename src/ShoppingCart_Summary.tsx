@@ -1,4 +1,4 @@
-import { FaShoppingCart } from 'react-icons/fa';
+//import { FaShoppingCart } from 'react-icons/fa';
 import React, { useState, useEffect } from 'react';
 
 type Product = {
