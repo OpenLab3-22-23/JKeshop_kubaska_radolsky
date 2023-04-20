@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Product from "./Products";
 import LandingPage from "./LandingPage";
-import ShoppingCart from "./ShoppingCart_Summary";
+//*import ShoppingCart from "./ShoppingCart_Summary";
 
 const NavBar = () => { 
   
@@ -18,7 +18,7 @@ const NavBar = () => {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/contact">Contact</Link></li>
-         <ShoppingCart />
+         
         </ul>
       </nav>
     </header>
