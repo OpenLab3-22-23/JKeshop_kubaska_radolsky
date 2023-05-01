@@ -97,7 +97,9 @@ const Products = () => {
 
     fetchProducts()
   }, [])
-
+  const addToCart = (product: Product) => {
+    setProducts([...products, product]);
+  };
   return (
     <div>
         <header>
@@ -107,14 +109,15 @@ const Products = () => {
       </header>
       <main>
     <div>
-      {products.map((product) => (
-        <div key={product.id} className="product-box">
-          <img src={product.img_url} alt={product.description} />
-          <h2>{product.description}</h2>
-          <p>Price: {product.price}</p>
-          <button onClick={() => addToCart({ id: 1, name: 'Product 1', price: 10 })}>Add to Cart</button>
-        </div>
-      ))}
+    {products.map((product) => (
+  <div key={product.id} className="product-box">
+    <img src={product.img_url} alt={product.description} />
+    <h2>{product.description}</h2>
+    <p>Price: {product.price}</p>
+    <button onClick={() => addToCart(product)}>Add to Cart</button>
+  </div>
+))}
+      
       </div>
       </main>
     </div>
