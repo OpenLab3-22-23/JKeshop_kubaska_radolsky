@@ -112,6 +112,7 @@ const Products = () => {
           <img src={product.img_url} alt={product.description} />
           <h2>{product.description}</h2>
           <p>Price: {product.price}</p>
+          <button onClick={() => addToCart({ id: 1, name: 'Product 1', price: 10 })}>Add to Cart</button>
         </div>
       ))}
       </div>

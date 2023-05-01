@@ -7,7 +7,8 @@ import Contact from "../Contact";
 import Home from "../Home";
 import Product from "../Products";
 import LandingPage from "../LandingPage";
-
+import MyCart from "../MyCart";
+import ShoppingCart from "../ShoppingCart";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -41,7 +42,14 @@ export const router = createBrowserRouter([
     path: "/LandingPage",
     element: <LandingPage />,
   },
-  
+  {
+    path: "/MyCart",
+    element: <MyCart />,
+  },
+  {
+    path: "/ShoppingCart",
+    element: <ShoppingCart />,
+  },
 ]);
 
 
