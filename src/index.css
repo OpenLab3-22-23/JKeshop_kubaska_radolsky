@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap');
 
 
+
 body{
     background-color: #360370fa; 
     
@@ -24,7 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     background-color: #360370fa;
     color: #fff;
 }
@@ -34,8 +35,9 @@ header h1 {
 }
   
 header nav ul {
-    display: flex;
+  display: flex;
     list-style: none;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
@@ -233,12 +235,7 @@ a {
   height: auto;
   margin-top: 10px;
 }
-.ShoppingCart{
-  color: white;
-  
-}
-.wrapper{
-  text-align: right;
-  display: inline;
-  
+.vrch{
+  text-align: center;
+  align-items: center;
 }

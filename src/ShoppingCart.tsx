@@ -29,9 +29,9 @@ const ShoppingCart = () => {
     setTotalPrice(totalPrice);
   }, [products]);
 
-  /*const addToCart = (product: Product) => {
+  const addToCart = (product: Product) => {
     setProducts([...products, product]);
-  };*/
+  };
 
   /*const removeFromCart = (productId: number) => {
     const updatedProducts = products.filter((product) => product.id !== productId);
@@ -40,12 +40,14 @@ const ShoppingCart = () => {
 
   return (
     <div>
+      <div className='Cart'>
       <h2>Shopping Cart</h2>
+      </div>
       {products.map((product) => (
         <div key={product.id}>
           <h3>{product.name}</h3>
           <p>${product.price}</p>
-         
+         <button onClick={() => localStorage.setItem('products', JSON.stringify(products)) }>add</button>
         </div>
       ))}
       <h3>Total Price: ${totalPrice}</h3>

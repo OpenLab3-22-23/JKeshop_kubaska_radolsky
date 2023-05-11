@@ -83,7 +83,7 @@ const Products = () => {
       const { data, error } = await supabase
         .from('products')
         .select('id, description, price, img_url')
-        .range(0, 4)
+        .range(0, 8)
 
       if (error) {
         console.error(error)
@@ -115,6 +115,7 @@ const Products = () => {
     <h2>{product.description}</h2>
     <p>Price: {product.price}</p>
     <button onClick={() => addToCart(product)}>Add to Cart</button>
+    <button onClick={() => localStorage.setItem('products', JSON.stringify(products)) }>add</button>
   </div>
 ))}
       
